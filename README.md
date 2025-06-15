@@ -43,6 +43,12 @@ Open the .sln file
 
 Ensure .NET 8 SDK is installed
 
+⚙️ Configuration
+Create an appsettings.json in the RaftLabs.ConsoleDemo/ project:
+
+json
+Copy
+Edit
 {
   "ApiSettings": {
     "BaseUrl": "https://reqres.in/api",
@@ -50,7 +56,9 @@ Ensure .NET 8 SDK is installed
     "CacheDurationSeconds": 60
   }
 }
-Run & Test
+Make sure Copy to Output Directory is set to: Copy if newer.
+
+🧪 Run & Test
 Run the Console App
 bash
 Copy
